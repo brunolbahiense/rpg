@@ -16,7 +16,6 @@ export default function Form() {
         </p>
 
       <div className={styles.escolha}>
-
         <Link href='/kaiser'>
             <button className={styles.button}>
                 Força

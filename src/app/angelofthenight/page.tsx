@@ -19,8 +19,9 @@ export default function Nome() {
     <>
       {correct ? (
         <main className={styles.modal}>
-          <p>Você provou o seu valor, seja bem vindo!</p>
-          <a href='https://t.me/+aKc1ZmukluRiZGY5' className={styles.correct}>https://t.me/+aKc1ZmukluRiZGY5</a>
+           <p>Você provou o seu valor</p>
+          <p>seja bem vindo</p>
+          <a href='https://t.me/+aKc1ZmukluRiZGY5' className={styles.correct}>Ø</a>
         </main>
       ):(
       <main className={styles.main}>
