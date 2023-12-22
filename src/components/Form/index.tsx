@@ -5,20 +5,31 @@ export default function Form() {
     return (
       <section className={styles.section}>
         <h1>Olá.</h1>
-        <h2>Você foi escolhido pois possui o perfil que desejamos para nós</h2>
+        <h2>APÓS MUITO ANALISAR SUAS CARACTERÍSTICAS ESCOLHEMOS VOCÊ PARA SE JUNTAR A NOSSA ORGANIZAÇÃO.</h2>
         <p>
-            Se juntar à nós significa abdicar de tudo que acredita e conhecer 
-            o real significado de todo o mundo ao seu redor.
-            <br />
-            Aceitar o convite te tornará um de nós, assim que ouvir o chamado, recusa-lo não será uma opção
+          ESTA É A SUA CHANCE DE PODER CONSERTAR ESTE MUNDO CONDENADO EM QUE VIVEMOS.
+          <br />
+          UM NOVO PROPÓSITO PARA A SUA VIDA
+          <br />
+          <br />
+          ESCOLHA A SUA BANDEIRA
         </p>
 
+      <div className={styles.escolha}>
 
-        <Link href='/Nome'>
+        <Link href='/kaiser'>
             <button className={styles.button}>
-                Aceito
+                Força
             </button>
         </Link>
+        <Link href='/angelofthenight'>
+            <button className={styles.button2}>
+                Conhecimento
+            </button>
+        </Link>
+      </div>
+    
+      
         
       </section>
     )
