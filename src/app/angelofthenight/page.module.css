@@ -4,8 +4,7 @@
   align-items: center;
   padding: 4rem;
   min-height: calc(100vh - 4.5em);
-  height: 100vh;
-  width: 100vw;
+
 }
 
 @media (max-width: 700px) {
@@ -25,8 +24,23 @@
   justify-content: center;
   min-height: calc(100vh - 4.5em);
   font-size: 1.5rem;
+  gap: 1rem;
 }
 
+.main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  background: url('/faceless.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
 .modal::before {
   content: "";
   position: absolute;
@@ -56,13 +70,14 @@
   padding: 0 0.5rem;
 }
 
-.btn{
+.btn, .correct{
   background-color: #0f6d0f;
   border: none;
   border-radius: 5px;
   height: 2rem;
   width: 6rem;
   cursor: pointer;
+  text-align: center;
 }
 
 .image{
@@ -83,9 +98,18 @@
   margin-top: 1rem;
   color: yellow;
 }
+
 .correct{
-  margin-top: 1rem;
-  color: #00af00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem 2rem;
+  background-color: #1f2c93;
+  border: solid 1px #6e6e6e;
+}
+
+.correct:hover{
+  transform: scale(1.2);
 }
 
 
