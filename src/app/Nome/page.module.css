@@ -1,0 +1,16 @@
+.face {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem;
+  min-height: calc(100vh - 4.5em);
+  background-image: url('/faceless.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.1;
+}
+
+

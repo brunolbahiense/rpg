@@ -1,0 +1,18 @@
+.section{
+    height: 60vh;
+    width: 80vw;
+    border-radius: 15px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button{
+    all: unset;
+    background-color: #177917;
+    padding: 0.5em 1em;
+    border-radius: 15px;
+    font-size: 2em;
+    margin-top: 1em;
+}
