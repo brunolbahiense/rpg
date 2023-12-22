@@ -10,7 +10,7 @@ export default function Nome() {
   const [hint, setHint] = useState(false);
   const [correct, setCorrect] = useState(false);
   const validade = () => {
-    const response = '-. .- --- / -.-. --- -. ... .. --. --- / . -. - . -. -.. . .-. / --- / ... . ..- / .. -.. .. --- -- .-'
+    const response = '.- .-.. .- -. / - ..- .-. .. -. --.'
     if(value == response) return setCorrect(true)
     if(value == 'alan turing') return setHint(true)
     if(value !== response) return setMessage(true) 
