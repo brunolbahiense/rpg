@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 'use client'
-import Link from 'next/link';
 import styles from './page.module.css'
 import { useState } from 'react';
 export default function Nome() {
